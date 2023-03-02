@@ -5,7 +5,9 @@
     --corSecundaria: #FACF9D;
     --corFontTextoTitulos: white;
     --corFontTextoCorpo: #444444;
-    
+
+    --fontPrimaria: 'Raleway' , sans-serif; 
+    --fontSecundaria: 'Calistoga', cursive;
 }
 
 /* HEADER  */
@@ -22,18 +24,27 @@
 .cabecalho__nav {
     display: flex;
     gap: 32px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fontPrimaria);
     color: var(--corFontTextoTitulos);
     font-weight: 700;
     font-size: 20px;
 }
+
+/* MAIN */
+
+
+.principal {
+    width: 100%;
+    height: 407px;
+}
+
 
 /* FOOTER */
 
 .rodape {
     background-color: var(--corSecundaria);
     width: 100%;
-    height: 232px;
+    height: 238px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +55,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fontPrimaria);
     font-size: 20px;
     font-weight: 500;
     color: var(--corFontTextoCorpo);
@@ -54,7 +65,7 @@
 .rodape__texto {
     display: flex;
     flex-direction: column;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fontPrimaria);
     font-size: 20px;
     font-weight: 500;
     gap: 20px;
