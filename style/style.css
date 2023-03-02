@@ -43,7 +43,7 @@
 .rodape__paragrafo__redeSocial {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 500;
