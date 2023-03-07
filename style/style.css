@@ -269,3 +269,116 @@
     color: var(--corFontTextoCorpo);
     line-height: 40px;
 }
+
+/* MAPA DE SETORES */
+
+/* LEGENDA PALCO */
+
+.principal__mapaDeSetores__mapaLegenda {
+    display: flex;
+    justify-content: center;
+    padding: 32px 120px;
+    align-items: center;
+    gap: 48px;
+}
+
+.principal__mapaDeSetores__Legenda {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.principal__mapaDeSetores__Legenda__titulo {
+    font-family: var(--fontPrimaria);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--corFontTextoCorpo);
+}
+
+.principal__mapaDeSetores__Legenda__paragrafo {
+    font-family: var(--fontPrimaria);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--corFontTextoCorpo);
+}
+
+.principal__mapaDeSetores__legenda__retangulosTextos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.principal__mapaDeSetores__Legenda__retangulo1, .principal__mapaDeSetores__Legenda__retangulo2, .principal__mapaDeSetores__Legenda__retangulo3, .principal__mapaDeSetores__Legenda__retangulo4, .principal__mapaDeSetores__Legenda__retangulo5 {
+    width: 32px;
+    height: 32px;
+}
+
+.principal__mapaDeSetores__Legenda__retangulo1 {
+    background-color: #0E7DF1;
+}
+.principal__mapaDeSetores__Legenda__retangulo2 {
+    background-color: #FE016E;
+}
+.principal__mapaDeSetores__Legenda__retangulo3 {
+    background-color: #01A89E;
+}
+.principal__mapaDeSetores__Legenda__retangulo4 {
+    background-color: #3F51B5;
+}
+.principal__mapaDeSetores__Legenda__retangulo5 {
+    background-color: #0E7DF1;
+}
+
+/* MAIS DETALHES */
+
+.principal__mapaDeSetores__maisDetalhes {
+    padding: 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.principal__mapaDeSetores__maisDetalhes__titulo {
+    font-family: var(--fontPrimaria);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--corFontTextoCorpo);
+}
+
+.principal__mapaDeSetores__maisDetalhes__blocos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.principal__mapaDeSetores__maisDetalhes__bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.principal__mapaDeSetores__maisDetalhes__bloco__retangulo {
+    width: 393px;
+    height: 82px;
+}
+
+.principal__mapaDeSetores__maisDetalhes__bloco__titulo {
+    font-family: var(--fontPrimaria);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--corFontTextoCorpo);
+}
+
+.principal__mapaDeSetores__maisDetalhes__bloco__paragrafo {
+    font-family: var(--fontPrimaria);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--corFontTextoCorpo);
+    text-align: center;
+    line-height: 40px;
+}
