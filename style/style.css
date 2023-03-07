@@ -7,13 +7,15 @@
     --corFontTextoCorpo: #444444;
     --corGradiente1: #BFDAE6;
     --corGradiente2: #FCF0DD;
-    --corGradiente3: #FACF9D;
+    --corGradiente3: #fcd6ac;
     --corHover: #519EC5;
     --corLinha: #DF9010;
 
     --fontPrimaria: 'Raleway' , sans-serif; 
     --fontSecundaria: 'Calistoga', cursive;
 }
+
+/* HOMEPAGE */
 
 /* HEADER  */
 
@@ -226,4 +228,44 @@
     color: var(--corFontTextoCorpo);
 }
 
+/* A EXPERIENCIA */
 
+/* MAIN */
+
+.principal__banner__aExperiencia {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.principal__aExperiencia__bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 64px 120px;
+}
+
+.bloco__inverso {
+    flex-direction: row-reverse;
+}
+
+.principal__aExperiencia__bloco__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.principal__aExperiencia__bloco__texto__titulo {
+    font-family: var(--fontPrimaria);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--corFontTextoCorpo);
+}
+
+.principal__aExperiencia__bloco__texto__paragrafo {
+    font-family: var(--fontPrimaria);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--corFontTextoCorpo);
+    line-height: 40px;
+}
